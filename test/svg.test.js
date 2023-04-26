@@ -20,13 +20,16 @@ describe("SVG", () => {
   it("should set text message and color", () => {
     const expectedSvg =
       '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><text x="150" y="125" font-size="60" text-anchor="middle" fill="#333">SVG</text></svg>';
-
+    // const svg = new SVG();
+    // expect(svg.setText()).toEqual(expectedSvg);
 
   });
 
   // An exception test checks for code that should throw an error.
   it("should throw if text exceeds 3 characters", () => {
     const expectedError = new Error("Text must not exceed 3 characters.");
+    const noMoreThanThree = () => new SVG()
+    expect(noMoreThanThree.render()).toEqual(expectedError)
 
 
   });

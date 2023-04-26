@@ -1,15 +1,15 @@
+// import classes Square, Triangle and Circle 
 const { Square, Triangle, Circle } = require("../lib/shapes");
 
 describe("Circle", () => {
   it("should render svg for a green circle element", () => {
     const expectedSvg = '<circle cx="150" cy="100" r="80" fill="green" />';
     
-    const instance = new Circle();
-    instance.setColor('green')
+    const circle = new Circle();
+    circle.setColor('green')
 
     // render is unique to circle from the shapes.js, not shape
-    const greenCircleSVG = instance.render()
-    // expect(instance.render()).toEqual(expectedSvg)
+    const greenCircleSVG = circle.render()
     expect(greenCircleSVG).toEqual(expectedSvg)
   });
 });
@@ -24,7 +24,6 @@ describe("Triangle", () => {
   
       // render is unique to triangle from the shapes.js, not shape
       const bisqueSvg = tri.render()
-      // expect(instance.render()).toEqual(expectedSvg)
       expect(bisqueSvg).toEqual(expectedSvg)
 
   });
@@ -40,7 +39,6 @@ describe("Square", () => {
   
       // render is unique to Square from the shapes.js, not shape
       const dodgerblueSvg = square.render()
-      // expect(instance.render()).toEqual(expectedSvg)
       expect(dodgerblueSvg).toEqual(expectedSvg);
   });
 });
