@@ -53,14 +53,7 @@ The application must include `Triangle`, `Circle`, and `Square` classes, as well
 Each shape class should be tested for a `render()` method that returns a string for the corresponding SVG file with the given shape color.
 
 
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-This Challenge is graded based on the following criteria:
+
 
 ### Deliverables: 15%
 
