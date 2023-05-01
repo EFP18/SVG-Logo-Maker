@@ -1,8 +1,8 @@
 # SVG Logo Maker
 
-Github: https://github.com/EFP18/Note-Taker
-Video walk-through: https://drive.google.com/file/d/1rS02GgZjeVdJHy6kxFX6D2Qw-KCxoAZi/view
-Example SVG file image: ![Yellow triangle SVG logo with blue letters.](./Images/Screenshot%20of%20svg.logo.png)
+* Github: https://github.com/EFP18/Note-Taker
+* Video walk-through: https://drive.google.com/file/d/1rS02GgZjeVdJHy6kxFX6D2Qw-KCxoAZi/view
+* Example SVG file image: ![Yellow triangle SVG logo with blue letters.](./Images/Screenshot%20of%20svg.logo.png)
 
   ## Table of Contents
 
